@@ -1,4 +1,5 @@
-user_option = input("rock, paper or sisor-----")
+user_option = input("rock, paper or sisor-----").lower()
+print(f"You select {user_option}")
 computer_option = "paper"
 
 if user_option == computer_option:
